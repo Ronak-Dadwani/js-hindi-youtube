@@ -19,7 +19,7 @@ object (native and does not implement ) = object
 // const isLoggedIn = false;
 // const outsideTemp = null;
 
-let userEmail = undefined; // two ways of writting undefined value 
+//let userEmail = undefined; // two ways of writting undefined value 
 
 // const id = Symbol('123')
 // const anotherId = Symbol('123')
@@ -51,9 +51,29 @@ let userEmail = undefined; // two ways of writting undefined value
 
 // function  as a variable
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
+
+// console.log(typeof anotherId);
+
+// ***************** Stack (Primitive), Heap (non-primitive) 
+
+let myYoutubename = "ronakdadwani.com"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userOne = { 
+    email: "'user@google.com",
+    upi: "user@ybl",
+
 }
 
-console.log(typeof anotherId);
+let userTwo = userOne
+userTwo.email = "ronak@google.com"
 
+console.log(userOne.email);
+console.log(userTwo.email);
