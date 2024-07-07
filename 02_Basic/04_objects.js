@@ -48,8 +48,35 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+// destructions 
+const course = {
+    coursename: "js in Hindi",
+    price: "999",
+    courseInstructor: "ronak dadwani"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: inst} = course
+console.log(inst);
+
+// const navbar = ({company}) =>{  // destructurinng the objects
+
+// }
+
+// navbar(company = "ronak")
+
+// {
+//     "name" : "ronak",
+//     "coursename": "js in Hindi",
+//     "price": "999"
+//     "courseInstructor": "ronak dadwani",
+// }
+
+
