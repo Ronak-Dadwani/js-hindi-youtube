@@ -1,5 +1,9 @@
-const myNums = [1 , 2, 3, 4, 5, 7, 8, 9 ,10]
+// const myNumers = [1, 2, 3, 4, 5,6, 7, 8, 9 ,10]
 
-const newnumber = myNums.map( (num1)=> num1 + 10 )
+// const newnumber = myNums.map( (num1)=> num1 + 10 )
 
-console.log(newnumber);
+// const newNums= myNumers
+//                     .map( (num) => num *  10 )
+//                     .map( (num)=> num + 1)
+//                     .filter((num)=> num >= 40)
+// console.log(newNums);
