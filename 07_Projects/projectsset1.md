@@ -196,6 +196,8 @@ window.addEventListener('keydown', function(e){
 })
 ```
 ## PROJECT 6 SOLUTION
+```Javascript
+
 // 0-9 and a-f
 //generate a random color
 
