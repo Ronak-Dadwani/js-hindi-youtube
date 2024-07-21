@@ -170,7 +170,7 @@ function newGame(){
 
 
 ## PROJECT 5
-``Javascript
+```Javascript
 const insert = document.getElementById('insert')
 
 window.addEventListener('keydown', function(e){
@@ -195,15 +195,12 @@ window.addEventListener('keydown', function(e){
   `
 })
 ```
-## PROJECT 6 SOLUTION
+## Project 6 solution
+
 ```Javascript
-
-// 0-9 and a-f
-//generate a random color
-
 const randomColor = function(){
   const hex = "0123456789ABCDEF";
-  let color = "#";
+  let color = "#";  
   for(let i=0; i<6; i++){
    color += hex[Math.floor(Math.random()*16)] 
   }
