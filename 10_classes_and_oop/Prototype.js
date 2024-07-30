@@ -15,6 +15,41 @@ let herosPower = {
     }
 }
 
+object.prototype.hitesh = function(){
+    console.log(`ronak is present in all object`);
+}
+
+Array.prototype.heyHitesh = function(){
+    console.log(`Hitesh says Hello`);
+}
+
+// myHeros.hitesh()
+// herosPower.hitesh()
+
+const user = {
+    name: "chai",
+    gmail: "chai@google.com"
+}
 
 
-herosPower.ronak()
+const Teacher = {
+    makeVide: true,
+
+}
+
+const TeachingSupport ={
+    isAvailable : false
+}
+
+const TASupport = {
+    makeAssigment: 'JS assignment',
+    fulltime: true,
+    __proto__: TeachingSupport
+
+}
+
+Teacher:__proto__ = user;
+
+// modern syntax
+
+object.set
