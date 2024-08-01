@@ -1,67 +1,67 @@
-// let myName = "ronak     "
-// let myChannel = "chaiiiiii     "
+// // let myName = "ronak     "
+// // let myChannel = "chaiiiiii     "
 
-// console.log(myName.trueLength);
+// // console.log(myName.trueLength);
 
-// let myHeros = ["thor", "spiderman"]
+// // let myHeros = ["thor", "spiderman"]
 
-// let herosPower = {
-//     thor: "hammer",
-//     spiderman : "sling",
+// // let herosPower = {
+// //     thor: "hammer",
+// //     spiderman : "sling",
 
 
-//     getSpiderPower: function(){
-//         console.log(`spidy power is ${this.spiderman}`);
-//     }
+// //     getSpiderPower: function(){
+// //         console.log(`spidy power is ${this.spiderman}`);
+// //     }
+// // }
+
+// // object.prototype.hitesh = function(){
+// //     console.log(`ronak is present in all object`);
+// // }
+
+// // Array.prototype.heyHitesh = function(){
+// //     console.log(`Hitesh says Hello`);
+// // }
+
+// // myHeros.hitesh()
+// // herosPower.hitesh()
+
+// const user = {
+//     name: "chai",
+//     gmail: "chai@google.com"
 // }
 
-// object.prototype.hitesh = function(){
-//     console.log(`ronak is present in all object`);
+
+// const Teacher = {
+//     makeVide: true,
+
 // }
 
-// Array.prototype.heyHitesh = function(){
-//     console.log(`Hitesh says Hello`);
+// const TeachingSupport ={
+//     isAvailable : false
 // }
 
-// myHeros.hitesh()
-// herosPower.hitesh()
+// const TASupport = {
+//     makeAssigment: 'JS assignment',
+//     fulltime: true,
+//     __proto__: TeachingSupport
 
-const user = {
-    name: "chai",
-    gmail: "chai@google.com"
-}
+// }
 
+// Teacher:__proto__ = user;
 
-const Teacher = {
-    makeVide: true,
+// // modern syntax
 
-}
+// Object.setPrototypeOf(TeachingSupport, Teacher)
 
-const TeachingSupport ={
-    isAvailable : false
-}
+// let anotherUsername = "chaiaurcode        "
 
-const TASupport = {
-    makeAssigment: 'JS assignment',
-    fulltime: true,
-    __proto__: TeachingSupport
+// String.prototype.trueLength = function(){
+//     console.log(`${this}`);
+//     // console.log(`${this.name}`);
+//     console.log(`True length is: ${this.trim().length}`);
+// }
 
-}
-
-Teacher:__proto__ = user;
-
-// modern syntax
-
-Object.setPrototypeOf(TeachingSupport, Teacher)
-
-let anotherUsername = "chaiaurcode        "
-
-String.prototype.trueLength = function(){
-    console.log(`${this}`);
-    // console.log(`${this.name}`);
-    console.log(`True length is: ${this.trim().length}`);
-}
-
-anotherUsername.trueLength()
-"hitesh".trueLength()
-"icetea".trueLength()
+// anotherUsername.trueLength()
+// "hitesh".trueLength()
+// "icetea".trueLength()
